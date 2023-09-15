@@ -52,7 +52,7 @@ ApplicationWindow {
     Image {
         id: gearImage
         width: 450
-        height: 450
+        height: 300
         scale: 1
         anchors.verticalCenterOffset: -334
         anchors.horizontalCenterOffset: 1
@@ -61,7 +61,7 @@ ApplicationWindow {
     }
 
     Row {
-        anchors.verticalCenterOffset: 486
+        anchors.verticalCenterOffset: 422
         anchors.horizontalCenterOffset: 0
         anchors.centerIn: parent
         spacing: 10
