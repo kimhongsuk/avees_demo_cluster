@@ -1,0 +1,28 @@
+[0.060s] Invoking command in '/home/avees/my_ros2_ws/build/my_ros2_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/avees/my_ros2_ws/build/my_ros2_package -- -j8 -l8
+[0.223s] [35m[1mScanning dependencies of target number_publisher[0m
+[0.289s] [ 50%] Built target number_subscriber
+[0.341s] [ 75%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[9.071s] [100%] [32m[1mLinking CXX executable number_publisher[0m
+[9.570s] [100%] Built target number_publisher
+[9.615s] Invoked command in '/home/avees/my_ros2_ws/build/my_ros2_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/avees/my_ros2_ws/build/my_ros2_package -- -j8 -l8
+[9.775s] Invoking command in '/home/avees/my_ros2_ws/build/my_ros2_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/avees/my_ros2_ws/build/my_ros2_package
+[9.807s] -- Install configuration: ""
+[9.808s] -- Execute custom install script
+[9.810s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/package_run_dependencies/my_ros2_package
+[9.845s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/parent_prefix_path/my_ros2_package
+[9.879s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.sh
+[9.913s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.dsv
+[9.947s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/path.sh
+[9.984s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/path.dsv
+[10.022s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.bash
+[10.058s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.sh
+[10.096s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.zsh
+[10.133s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.dsv
+[10.168s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/package.dsv
+[10.207s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/packages/my_ros2_package
+[10.245s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig.cmake
+[10.281s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig-version.cmake
+[10.316s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/package.xml
+[10.354s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/lib/my_ros2_package/number_publisher
+[10.391s] -- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/lib/my_ros2_package/number_subscriber
+[10.444s] Invoked command in '/home/avees/my_ros2_ws/build/my_ros2_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/avees/my_ros2_ws/build/my_ros2_package

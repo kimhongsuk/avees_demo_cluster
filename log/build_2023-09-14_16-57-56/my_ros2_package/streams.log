@@ -1,0 +1,11 @@
+[0.060s] Invoking command in '/home/avees/my_ros2_ws/build/my_ros2_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/avees/my_ros2_ws/build/my_ros2_package -- -j8 -l8
+[0.285s] [ 25%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.299s] [ 75%] Built target number_subscriber
+[4.230s] [01m[K/home/avees/my_ros2_ws/src/my_ros2_package/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisher::NumberPublisher()[m[K’:
+[4.230s] [01m[K/home/avees/my_ros2_ws/src/my_ros2_package/src/number_publisher.cpp:14:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[4.231s]    14 |             [01;31m[K1000ms[m[K, std::bind(&NumberPublisher::on_timer, this));
+[4.231s]       |             [01;31m[K^~~~~~[m[K
+[6.625s] make[2]: *** [CMakeFiles/number_publisher.dir/build.make:63: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+[6.626s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/number_publisher.dir/all] Error 2
+[6.627s] make: *** [Makefile:141: all] Error 2
+[6.638s] Invoked command in '/home/avees/my_ros2_ws/build/my_ros2_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/avees/my_ros2_ws/build/my_ros2_package -- -j8 -l8

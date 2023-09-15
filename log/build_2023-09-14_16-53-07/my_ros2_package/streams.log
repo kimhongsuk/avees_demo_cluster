@@ -1,0 +1,68 @@
+[0.060s] Invoking command in '/home/avees/my_ros2_ws/build/my_ros2_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/avees/my_ros2_ws/src/my_ros2_package -DCMAKE_INSTALL_PREFIX=/home/avees/my_ros2_ws/install/my_ros2_package
+[0.325s] -- The C compiler identification is GNU 9.4.0
+[0.570s] -- The CXX compiler identification is GNU 9.4.0
+[0.596s] -- Check for working C compiler: /usr/bin/cc
+[0.894s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.899s] -- Detecting C compiler ABI info
+[1.201s] -- Detecting C compiler ABI info - done
+[1.258s] -- Detecting C compile features
+[1.259s] -- Detecting C compile features - done
+[1.270s] -- Check for working CXX compiler: /usr/bin/c++
+[1.589s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.592s] -- Detecting CXX compiler ABI info
+[1.913s] -- Detecting CXX compiler ABI info - done
+[1.968s] -- Detecting CXX compile features
+[1.969s] -- Detecting CXX compile features - done
+[1.983s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.062s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.698s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.920s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.927s] -- Added test 'lint_cmake' to check CMake code style
+[2.932s] -- Added test 'xmllint' to check XML markup files
+[2.939s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.109s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.424s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.513s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.946s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.959s] -- Looking for pthread.h
+[4.256s] -- Looking for pthread.h - found
+[4.257s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.565s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.565s] -- Looking for pthread_create in pthreads
+[4.814s] -- Looking for pthread_create in pthreads - not found
+[4.815s] -- Looking for pthread_create in pthread
+[5.112s] -- Looking for pthread_create in pthread - found
+[5.117s] -- Found Threads: TRUE  
+[5.607s] -- Configuring done
+[5.610s] CMake Error at CMakeLists.txt:43 (add_executable):
+[5.610s]   Cannot find source file:
+[5.610s] 
+[5.611s]     src/number_subscriber.cpp
+[5.611s] 
+[5.611s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[5.611s]   .hpp .hxx .in .txx
+[5.612s] 
+[5.612s] 
+[5.612s] CMake Error at CMakeLists.txt:40 (add_executable):
+[5.613s]   Cannot find source file:
+[5.613s] 
+[5.614s]     src/number_publisher.cpp
+[5.614s] 
+[5.614s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[5.614s]   .hpp .hxx .in .txx
+[5.615s] 
+[5.615s] 
+[5.615s] CMake Error at CMakeLists.txt:43 (add_executable):
+[5.616s]   No SOURCES given to target: number_subscriber
+[5.616s] 
+[5.616s] 
+[5.616s] CMake Error at CMakeLists.txt:40 (add_executable):
+[5.617s]   No SOURCES given to target: number_publisher
+[5.617s] 
+[5.617s] 
+[5.618s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[5.640s] Invoked command in '/home/avees/my_ros2_ws/build/my_ros2_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/avees/my_ros2_ws/src/my_ros2_package -DCMAKE_INSTALL_PREFIX=/home/avees/my_ros2_ws/install/my_ros2_package

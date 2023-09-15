@@ -1,0 +1,41 @@
+[0.058s] Invoking command in '/home/avees/my_ros2_ws/build/my_ros2_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/avees/my_ros2_ws/src/my_ros2_package -DCMAKE_INSTALL_PREFIX=/home/avees/my_ros2_ws/install/my_ros2_package
+[0.110s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.181s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.745s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.770s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.973s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.976s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.977s] -- Configured cppcheck include dirs: 
+[0.977s] -- Configured cppcheck exclude dirs and/or files: 
+[0.980s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.980s] -- Configured cpplint exclude dirs and/or files: 
+[0.982s] -- Added test 'lint_cmake' to check CMake code style
+[0.986s] -- Added test 'uncrustify' to check C / C++ code style
+[0.986s] -- Configured uncrustify additional arguments: 
+[0.987s] -- Added test 'xmllint' to check XML markup files
+[0.991s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.109s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.632s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.636s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.070s] -- Configuring done
+[2.113s] -- Generating done
+[2.118s] -- Build files have been written to: /home/avees/my_ros2_ws/build/my_ros2_package
+[2.139s] Invoked command in '/home/avees/my_ros2_ws/build/my_ros2_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/avees/my_ros2_ws/src/my_ros2_package -DCMAKE_INSTALL_PREFIX=/home/avees/my_ros2_ws/install/my_ros2_package
+[2.156s] Invoking command in '/home/avees/my_ros2_ws/build/my_ros2_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/avees/my_ros2_ws/build/my_ros2_package -- -j8 -l8
+[2.313s] [35m[1mScanning dependencies of target number_subscriber[0m
+[2.313s] [35m[1mScanning dependencies of target number_publisher[0m
+[2.475s] [ 50%] [32mBuilding CXX object CMakeFiles/number_subscriber.dir/src/number_subscriber.cpp.o[0m
+[2.475s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[7.012s] [01m[K/home/avees/my_ros2_ws/src/my_ros2_package/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisher::NumberPublisher()[m[K’:
+[7.013s] [01m[K/home/avees/my_ros2_ws/src/my_ros2_package/src/number_publisher.cpp:14:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[7.013s]    14 |             [01;31m[K1000ms[m[K, std::bind(&NumberPublisher::on_timer, this));
+[7.013s]       |             [01;31m[K^~~~~~[m[K
+[9.737s] make[2]: *** [CMakeFiles/number_publisher.dir/build.make:63: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+[9.738s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/number_publisher.dir/all] Error 2
+[9.738s] make[1]: *** Waiting for unfinished jobs....
+[17.730s] [ 75%] [32m[1mLinking CXX executable number_subscriber[0m
+[18.598s] [ 75%] Built target number_subscriber
+[18.602s] make: *** [Makefile:141: all] Error 2
+[18.610s] Invoked command in '/home/avees/my_ros2_ws/build/my_ros2_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/avees/my_ros2_ws/build/my_ros2_package -- -j8 -l8

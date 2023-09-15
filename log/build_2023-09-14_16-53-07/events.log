@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000621] (my_ros2_package) JobQueued: {'identifier': 'my_ros2_package', 'dependencies': OrderedDict()}
+[0.001760] (my_ros2_package) JobStarted: {'identifier': 'my_ros2_package'}
+[0.045825] (my_ros2_package) JobProgress: {'identifier': 'my_ros2_package', 'progress': 'cmake'}
+[0.047286] (my_ros2_package) Command: {'cmd': ['/usr/bin/cmake', '/home/avees/my_ros2_ws/src/my_ros2_package', '-DCMAKE_INSTALL_PREFIX=/home/avees/my_ros2_ws/install/my_ros2_package'], 'cwd': '/home/avees/my_ros2_ws/build/my_ros2_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avees'), ('SSH_AGENT_PID', '3055'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/avees'), ('OLDPWD', '/home/avees'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2883'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/avees/ros2_ws/install'), ('AVEES_CLUSTERING_NODE_ID', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'avees'), ('JOURNAL_STREAM', '7:68163'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avees'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3091,unix/ubuntu:/tmp/.ICE-unix/3091'), ('INVOCATION_ID', '9a204e7cf6d146a6a5b6fc6695345c2b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/471d7d54_bb0e_486d_9b52_55309c9f324a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.323'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '102'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avees/my_ros2_ws/build/my_ros2_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099157] (-) TimerEvent: {}
+[0.200219] (-) TimerEvent: {}
+[0.300986] (-) TimerEvent: {}
+[0.326558] (my_ros2_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.401190] (-) TimerEvent: {}
+[0.502008] (-) TimerEvent: {}
+[0.571732] (my_ros2_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.597149] (my_ros2_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.602142] (-) TimerEvent: {}
+[0.703005] (-) TimerEvent: {}
+[0.803817] (-) TimerEvent: {}
+[0.895305] (my_ros2_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.900386] (my_ros2_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.903964] (-) TimerEvent: {}
+[1.004867] (-) TimerEvent: {}
+[1.105692] (-) TimerEvent: {}
+[1.202107] (my_ros2_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.205844] (-) TimerEvent: {}
+[1.259313] (my_ros2_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.260687] (my_ros2_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.271697] (my_ros2_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.306027] (-) TimerEvent: {}
+[1.406811] (-) TimerEvent: {}
+[1.507606] (-) TimerEvent: {}
+[1.589752] (my_ros2_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.593556] (my_ros2_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.607789] (-) TimerEvent: {}
+[1.708663] (-) TimerEvent: {}
+[1.809491] (-) TimerEvent: {}
+[1.910457] (-) TimerEvent: {}
+[1.914233] (my_ros2_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.969401] (my_ros2_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.971068] (my_ros2_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.984194] (my_ros2_package) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.010549] (-) TimerEvent: {}
+[2.062513] (my_ros2_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.063577] (my_ros2_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.110708] (-) TimerEvent: {}
+[2.211486] (-) TimerEvent: {}
+[2.312227] (-) TimerEvent: {}
+[2.412966] (-) TimerEvent: {}
+[2.513699] (-) TimerEvent: {}
+[2.614475] (-) TimerEvent: {}
+[2.699025] (my_ros2_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.714566] (-) TimerEvent: {}
+[2.815148] (-) TimerEvent: {}
+[2.915825] (-) TimerEvent: {}
+[2.921358] (my_ros2_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.928849] (my_ros2_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.933191] (my_ros2_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.940699] (my_ros2_package) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.015997] (-) TimerEvent: {}
+[3.090564] (my_ros2_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.110639] (my_ros2_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.116089] (-) TimerEvent: {}
+[3.216662] (-) TimerEvent: {}
+[3.317392] (-) TimerEvent: {}
+[3.418675] (-) TimerEvent: {}
+[3.424946] (my_ros2_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.513979] (my_ros2_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.518755] (-) TimerEvent: {}
+[3.619272] (-) TimerEvent: {}
+[3.720002] (-) TimerEvent: {}
+[3.764537] (my_ros2_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.820154] (-) TimerEvent: {}
+[3.920949] (-) TimerEvent: {}
+[3.947233] (my_ros2_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.952679] (my_ros2_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.960426] (my_ros2_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.021136] (-) TimerEvent: {}
+[4.121934] (-) TimerEvent: {}
+[4.222781] (-) TimerEvent: {}
+[4.257068] (my_ros2_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.258488] (my_ros2_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.322982] (-) TimerEvent: {}
+[4.423874] (-) TimerEvent: {}
+[4.524661] (-) TimerEvent: {}
+[4.565671] (my_ros2_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.566855] (my_ros2_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.624819] (-) TimerEvent: {}
+[4.725559] (-) TimerEvent: {}
+[4.815106] (my_ros2_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.816456] (my_ros2_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.825798] (-) TimerEvent: {}
+[4.926801] (-) TimerEvent: {}
+[5.027585] (-) TimerEvent: {}
+[5.112909] (my_ros2_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.118756] (my_ros2_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.127680] (-) TimerEvent: {}
+[5.228261] (-) TimerEvent: {}
+[5.328940] (-) TimerEvent: {}
+[5.429706] (-) TimerEvent: {}
+[5.530485] (-) TimerEvent: {}
+[5.607965] (my_ros2_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.611213] (my_ros2_package) StderrLine: {'line': b'CMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[5.611772] (my_ros2_package) StderrLine: {'line': b'  Cannot find source file:\n'}
+[5.612029] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.612282] (my_ros2_package) StderrLine: {'line': b'    src/number_subscriber.cpp\n'}
+[5.612561] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.612809] (my_ros2_package) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[5.613076] (my_ros2_package) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[5.613331] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.613552] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.613958] (my_ros2_package) StderrLine: {'line': b'CMake Error at CMakeLists.txt:40 (add_executable):\n'}
+[5.614271] (my_ros2_package) StderrLine: {'line': b'  Cannot find source file:\n'}
+[5.614652] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.615242] (my_ros2_package) StderrLine: {'line': b'    src/number_publisher.cpp\n'}
+[5.615543] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.615805] (my_ros2_package) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[5.616099] (my_ros2_package) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[5.616395] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.616682] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.616969] (my_ros2_package) StderrLine: {'line': b'CMake Error at CMakeLists.txt:43 (add_executable):\n'}
+[5.617284] (my_ros2_package) StderrLine: {'line': b'  No SOURCES given to target: number_subscriber\n'}
+[5.617591] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.617824] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.618049] (my_ros2_package) StderrLine: {'line': b'CMake Error at CMakeLists.txt:40 (add_executable):\n'}
+[5.618397] (my_ros2_package) StderrLine: {'line': b'  No SOURCES given to target: number_publisher\n'}
+[5.618745] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.619008] (my_ros2_package) StderrLine: {'line': b'\n'}
+[5.619327] (my_ros2_package) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[5.630580] (-) TimerEvent: {}
+[5.641168] (my_ros2_package) CommandEnded: {'returncode': 1}
+[5.731072] (-) TimerEvent: {}
+[5.758928] (my_ros2_package) JobEnded: {'identifier': 'my_ros2_package', 'rc': 1}
+[5.770436] (-) EventReactorShutdown: {}

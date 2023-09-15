@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target number_publisher[0m
+[ 50%] Built target number_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable number_publisher[0m
+[100%] Built target number_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/package_run_dependencies/my_ros2_package
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/parent_prefix_path/my_ros2_package
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.sh
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.dsv
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/path.sh
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/path.dsv
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.bash
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.sh
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.zsh
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.dsv
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/package.dsv
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/packages/my_ros2_package
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig.cmake
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig-version.cmake
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/package.xml
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/lib/my_ros2_package/number_publisher
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/lib/my_ros2_package/number_subscriber

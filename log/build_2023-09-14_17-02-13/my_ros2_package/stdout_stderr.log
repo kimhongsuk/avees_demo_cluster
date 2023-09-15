@@ -1,0 +1,21 @@
+[ 50%] Built target number_publisher
+[100%] Built target number_subscriber
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/package_run_dependencies/my_ros2_package
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/parent_prefix_path/my_ros2_package
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/path.sh
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/path.dsv
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.bash
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.sh
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.zsh
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.dsv
+-- Symlinking: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/package.dsv
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/packages/my_ros2_package
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig.cmake
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig-version.cmake
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/package.xml
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/lib/my_ros2_package/number_publisher
+-- Up-to-date symlink: /home/avees/my_ros2_ws/install/my_ros2_package/lib/my_ros2_package/number_subscriber

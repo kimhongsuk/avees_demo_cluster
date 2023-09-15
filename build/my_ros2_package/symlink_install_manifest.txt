@@ -1,0 +1,17 @@
+/home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/package_run_dependencies/my_ros2_package
+/home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/parent_prefix_path/my_ros2_package
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.sh
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.dsv
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/path.sh
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/environment/path.dsv
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.bash
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.sh
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.zsh
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/local_setup.dsv
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/package.dsv
+/home/avees/my_ros2_ws/install/my_ros2_package/share/ament_index/resource_index/packages/my_ros2_package
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig.cmake
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig-version.cmake
+/home/avees/my_ros2_ws/install/my_ros2_package/share/my_ros2_package/package.xml
+/home/avees/my_ros2_ws/install/my_ros2_package/lib/my_ros2_package/number_publisher
+/home/avees/my_ros2_ws/install/my_ros2_package/lib/my_ros2_package/number_subscriber
