@@ -158,7 +158,7 @@ ApplicationWindow {
             ctx.clearRect(0, 0, width, height);
 
             // Draw the speed bar
-            var angle = (-45) * Math.PI / 180; // Convert rpm to angle
+            var angle = (+45) * Math.PI / 180; // Convert rpm to angle
             ctx.beginPath();
             ctx.moveTo(centerX, centerY);
             ctx.lineTo(centerX + 135 * Math.cos(angle), centerY + 135 * Math.sin(angle));

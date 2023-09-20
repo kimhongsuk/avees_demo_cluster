@@ -31,8 +31,10 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 INCLUDEPATH += /opt/ros/foxy/include
+INCLUDEPATH += /home/avees/ros2_ws/install/ros2_msg/include/ros2_msg/msg
+INCLUDEPATH += /home/avees/ros2_ws/install/ros2_msg/include
 LIBS += -L/opt/ros/foxy/lib -lrclcpp -lrcl -lrcutils -lstd_msgs__rosidl_typesupport_cpp -llibstatistics_collector -lstatistics_msgs__rosidl_typesupport_cpp -ltracetools
-
+LIBS += -L/home/avees/ros2_ws/install/ros2_msg/lib -lros2_msg__rosidl_typesupport_introspection_cpp -lros2_msg__rosidl_typesupport_introspection_c -lros2_msg__rosidl_typesupport_fastrtps_cpp -lros2_msg__rosidl_typesupport_fastrtps_c -lros2_msg__rosidl_typesupport_cpp -lros2_msg__rosidl_typesupport_c -lros2_msg__rosidl_generator_c -lros2_msg__python
 HEADERS += \
     backend_receiver.h
 
@@ -44,3 +46,4 @@ DISTFILES += \
     image/star.png \
     image/volk.png \
     image/warning.png
+

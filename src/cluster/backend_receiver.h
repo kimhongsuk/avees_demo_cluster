@@ -6,7 +6,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/int64.hpp"
 #include <thread>
-
+#include "ocr2lrc.hpp"
 class BackEndReceiver : public QObject
 {
     Q_OBJECT
@@ -16,7 +16,7 @@ public:
 
 private:
     rclcpp::Node::SharedPtr node_;
-    rclcpp::Subscription<std_msgs::msg::Int64>::SharedPtr subscriber_;
+    rclcpp::Subscription<ros2_msg::msg::Ocr2lrc>::SharedPtr subscriber_;
     int count_;
     std::thread spin_thread_;
 
